@@ -59,3 +59,11 @@ The following is a fundamental outline of the project:
 
 #### The app will display the predicted resale price based on the provided information.
 
+### License:
+This project is licensed under the MIT License. Please review the LICENSE file for more details.
+
+### Contact:
+📧 Email: meenakshi.sriram18@gmail.com
+
+🌐 LinkedIn: https://www.linkedin.com/in/meenakshihariharakrishnan/
+
