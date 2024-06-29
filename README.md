@@ -1,4 +1,4 @@
-# Singapore-resale-flat-price-prediction
+# Singapore_resale_flat_price_prediction
 Singapore Resale Flat Price Prediction Using Regression Model 
 
 ### DOMAIN: Real Estate
