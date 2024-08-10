@@ -45,8 +45,7 @@ if selected == "About Project":
     st.markdown("# :blue[Singapore Resale Flat Prices Prediction]")
     st.markdown('<div style="height: 50px;"></div>', unsafe_allow_html=True)
     st.markdown("### :blue[Technologies :] Python, Pandas, Numpy, Scikit-Learn, Streamlit, Python scripting, "
-                "Machine Learning, Data Preprocessing, Visualization, EDA, Model Building, Data Wrangling, "
-                "Model Deployment")
+                "Machine Learning, Data Preprocessing, Visualization, EDA(Exploratory Data Analysis), Model Building, Data Wrangling")
     st.markdown("### :blue[Overview :] This project aims to construct a machine learning model and implement "
                 "it as a user-friendly online application in order to provide accurate predictions about the "
                 "resale values of apartments in Singapore. This prediction model will be based on past transactions "
@@ -76,9 +75,9 @@ if selected == "Predictions":
             submit_button = st.form_submit_button(label="### PREDICT RESALE PRICE")
 
             if submit_button is not None:
-                with open(r"model_SFP.pkl", 'rb') as file:
+                with open(r"model_singapore.pkl", 'rb') as file:
                     loaded_model = pickle.load(file)
-                with open(r'scaler_SFP.pkl', 'rb') as f:
+                with open(r'scaler_singapore.pkl', 'rb') as f:
                     scaler_loaded = pickle.load(f)
 
                 # -----Calculating lease_remain_years using lease_commence_date-----
